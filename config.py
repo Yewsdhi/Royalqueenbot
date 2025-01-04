@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1800))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002120932809))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002132108601))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6258877205))
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", 
-    "https://github.com/WCGKING/LOKESHXMUSIC"
+    "https://github.com/Yewsdhi/Royalqueenbot"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDED_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDRD_BOT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_ll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+hhXa8sX9NPJjYmQ1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
